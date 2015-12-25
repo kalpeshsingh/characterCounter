@@ -24,7 +24,7 @@ showMsg: true
 customMsg: "You have exceeded the permissible limit of characters.."
 
 5. Define your own seprator here [Optional]
-seprator: "/"
+separator: "/"
 
 6. Color coding for value below waringLen [Mandatory]
 warningColor: "#d50000"
