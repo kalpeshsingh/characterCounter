@@ -6,17 +6,17 @@
         var warningLen = options.warningLen;
         var showMsg = options.showMsg;
         var customMsg = options.customMsg;
-        var seprator = options.seprator;
+        var separator = options.separator;
         var warningColor = options.warningColor;
 
         //set max Length to input box
         $(this).attr('maxlength', maxLen);
         
         
-        //if seprator is not defined then use below one             
-        if(!seprator) 
+        //if separator is not defined then use below one             
+        if(!separator) 
                 {
-                    seprator = "|";
+                    separator = "|";
                 }
 
         //checking properties of object
@@ -24,7 +24,7 @@
             console.error("Defining maxLen is mandatory. Example: maxLen: 320");
             $('#counter').text("Oops, Something is missing. Get hint from console!");
         } else {
-            $('#counter').html(maxLen + seprator + maxLen);
+            $('#counter').html(maxLen + separator + maxLen);
         }
 
         if (!options.hasOwnProperty('warningLen')) {
@@ -52,7 +52,7 @@
                 var text_remaining = maxLen - text_length;
 
                 
-                $('#counter').html("<span id='ccInvalid'>" + text_remaining + "</span>" + seprator + maxLen);
+                $('#counter').html("<span id='ccInvalid'>" + text_remaining + "</span>" + separator + maxLen);
                 var msg = "Oops, you are not allowed to enter more...";
                 if (text_remaining <= warningLen) {
                     $("#ccInvalid").css('color', warningColor);
