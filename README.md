@@ -7,6 +7,18 @@ This feather weight jQuery plugin is exceptionally simple to use and gives you p
 2. Apply characterCounter function to that input ID
 3. Give "counter" ID to any DIV/SPAN tag to display counter
 
+####Example
+
+```
+$('ID/Class of Input box').characterCounter({
+                        maxLen: 15,
+                        warningLen: 5,
+                        showMsg: true,
+                        customMsg: "You have exceeded the permissible limit of characters..",
+                        separator: "/",
+                        warningColor: "#d50000",
+                                      });
+```
 
 ####Customization:
 Here is detail of each parameter you pass to object
