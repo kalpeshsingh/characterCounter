@@ -25,27 +25,27 @@ Here is detail of each parameter you pass to object
 
 1. Maximum length of message [Mandatory]
 
-  maxLen: 320
+  **maxLen: 320**
 
 2. Color coded will be applied to value below this [Mandatory]
 
-  warningLen: 60
+  **warningLen: 60**
 
 3. Show alert to user or not, value TRUE or FALSE [Mandatory]
 
-  showMsg: true
+  **showMsg: true**
 
 4. If showMsg is TRUE then you can set customize message otherwise default message will be used [Optional]
 
-  customMsg: "You have exceeded the permissible limit of characters.."
+  **customMsg: "You have exceeded the permissible limit of characters.."**
 
 5. Define your own seprator here [Optional]
 
-  separator: "/"
+  **separator: "/"**
 
 6. Color coding for value below waringLen [Mandatory]
 
-  warningColor: "#d50000"
+  **warningColor: "#d50000"**
 
 ####Your document structure:
 
@@ -64,16 +64,16 @@ Here is detail of each parameter you pass to object
         <fieldset>
             <legend>Contact form</legend>
             <p>
-                <input type="text" name="countThisBox" id="countThisBox" />
+                **<input type="text" name="countThisBox" id="countThisBox" />**
                 <label for="countThisBox">Count this idiot box!</label>
-                <div id="counter"></div>
+                **<div id="counter"></div>**
             </p>
 
         </fieldset>
     </form>
-    <script type="application/javascript" src="../js/jquery.min.js"></script>
-    <script type="application/javascript" src="../js/characterCounter.min.js"></script>
-    <script type="application/javascript">
+    **<script type="application/javascript" src="../js/jquery.min.js"></script>**
+    **<script type="application/javascript" src="../js/characterCounter.min.js"></script>**
+    **<script type="application/javascript">
         $('#countThisBox').characterCounter({
             maxLen: 15,
             warningLen: 5,
@@ -82,7 +82,7 @@ Here is detail of each parameter you pass to object
             separator: "/",
             warningColor: "#d50000",
         });
-    </script>
+    </script>**
 </body>
 
 </html>
