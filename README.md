@@ -47,4 +47,45 @@ Here is detail of each parameter you pass to object
 
   warningColor: "#d50000"
 
+####Your document structure:
+
+```
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Your Website</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact form</legend>
+            <p>
+                <input type="text" name="countThisBox" id="countThisBox" />
+                <label for="countThisBox">Count this idiot box!</label>
+                <div id="counter"></div>
+            </p>
+
+        </fieldset>
+    </form>
+    <script type="application/javascript" src="../js/jquery.min.js"></script>
+    <script type="application/javascript" src="../js/characterCounter.min.js"></script>
+    <script type="application/javascript">
+        $('#countThisBox').characterCounter({
+            maxLen: 15,
+            warningLen: 5,
+            showMsg: true,
+            customMsg: "You have exceeded the permissible limit of characters..",
+            separator: "/",
+            warningColor: "#d50000",
+        });
+    </script>
+</body>
+
+</html>
+```
+
 ######For more information, check out Git page of this plugin - [Visit Page!] (http://kalpeshsingh.github.io/characterCounter/)
