@@ -23,22 +23,28 @@ $('ID/Class of Input box').characterCounter({
 ####Customization:
 Here is detail of each parameter you pass to object
 
-1. Maximum length of message [Mandatory]\s\s
+1. Maximum length of message [Mandatory]
+
 maxLen: 320
 
-2. Color coded will be applied to value below this [Mandatory]\s\s
+2. Color coded will be applied to value below this [Mandatory]
+
 warningLen: 60
 
-3. Show alert to user or not, value TRUE or FALSE [Mandatory]\s\s
+3. Show alert to user or not, value TRUE or FALSE [Mandatory]
+
 showMsg: true
 
-4. If showMsg is TRUE then you can set customize message otherwise default message will be used [Optional]\s\s
+4. If showMsg is TRUE then you can set customize message otherwise default message will be used [Optional]
+
 customMsg: "You have exceeded the permissible limit of characters.."
 
-5. Define your own seprator here [Optional]\s\s
+5. Define your own seprator here [Optional]
+
 separator: "/"
 
-6. Color coding for value below waringLen [Mandatory]\s\s
+6. Color coding for value below waringLen [Mandatory]
+
 warningColor: "#d50000"
 
 ######For more information, check out Git page of this plugin - [Visit Page!] (http://kalpeshsingh.github.io/characterCounter/)
