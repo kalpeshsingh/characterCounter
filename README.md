@@ -64,16 +64,16 @@ Here is detail of each parameter you pass to object
         <fieldset>
             <legend>Contact form</legend>
             <p>
-                **<input type="text" name="countThisBox" id="countThisBox" />**
+                <input type="text" name="countThisBox" id="countThisBox" />
                 <label for="countThisBox">Count this idiot box!</label>
-                **<div id="counter"></div>**
+                <div id="counter"></div>
             </p>
 
         </fieldset>
     </form>
-    **<script type="application/javascript" src="../js/jquery.min.js"></script>**
-    **<script type="application/javascript" src="../js/characterCounter.min.js"></script>**
-    **<script type="application/javascript">
+    <script type="application/javascript" src="../js/jquery.min.js"></script>
+    <script type="application/javascript" src="../js/characterCounter.min.js"></script>
+    <script type="application/javascript">
         $('#countThisBox').characterCounter({
             maxLen: 15,
             warningLen: 5,
@@ -82,7 +82,7 @@ Here is detail of each parameter you pass to object
             separator: "/",
             warningColor: "#d50000",
         });
-    </script>**
+    </script>
 </body>
 
 </html>
