@@ -41,4 +41,4 @@ separator: "/"
 6. Color coding for value below waringLen [Mandatory]
 warningColor: "#d50000"
 
-For more information, check out Git page of this plugin - [Visit Page!] (http://kalpeshsingh.github.io/characterCounter/)
+######For more information, check out Git page of this plugin - [Visit Page!] (http://kalpeshsingh.github.io/characterCounter/)
