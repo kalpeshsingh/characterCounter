@@ -90,4 +90,4 @@ Here is detail of each parameter you pass to object
 
 ######For more information, check out Git page of this plugin - [Visit Page!] (http://kalpeshsingh.github.io/characterCounter/)
 
-NEW - Now you can read comprehensive tutorial about characterCounter on [OnExtraPixel] (http://kalpeshsingh.github.io/characterCounter/)
+NEW - Now you can read comprehensive tutorial about characterCounter on [OnExtraPixel] (http://www.onextrapixel.com/2016/01/29/charactercounter-building-a-feather-weight-jquery-character-counting-plugin/)
